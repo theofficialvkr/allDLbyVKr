@@ -211,8 +211,8 @@
                        <a class='avkr' 
                           href='$streamYT$DL[$a]'>Download $EXT[$a] - $FRMT[$a] $PROTO[$a]</a>";
                        }}  if(!empty($title)){
-                       echo "<iframe src='$fetchdomain/apiJson/button.php/?vkr=$vidDe&q=mp3' name='Vkrdownloaderr' scrolling='No' height='2.5%' width='100%' style='border: none;'></iframe>"; }
-                       if(!empty($title)){echo "<iframe src='$fetchdomain/apiJson/button.php/?vkr=$vidDe&q=720' name='Vkrdownloaderr' scrolling='No' height='2.5%' width='100%' style='border: none;'></iframe>"; }
+                       echo "<iframe src='$fetchdomain/apiJson/button.php/?vkr=$vidDe&q=mp3' name='Vkrdownloaderr' scrolling='No' height='55px' width='100%' style='border: none;'></iframe>"; }
+                       if(!empty($title)){echo "<iframe src='$fetchdomain/apiJson/button.php/?vkr=$vidDe&q=720' name='Vkrdownloaderr' scrolling='No' height='55px' width='100%' style='border: none;'></iframe>"; }
                        echo '</div></div>';
                        }else echo "<h2 class='centervkr'>Please Enter URL </h3>";
                  if(empty($vidDe)){
