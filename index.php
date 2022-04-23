@@ -1,5 +1,3 @@
-
-
 <html>
    <head>
       <title>AllDLByVKr : All Video Downloader By Vijay Kumar</title>
@@ -32,7 +30,7 @@
       <meta name="msapplication-TileImage" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
       <meta name="theme-color" content="#ffffff">
       <meta name="viewport" content="width=device-width ,  initial-scale=1 ,  shrink-to-fit=no">
-       <script type="text/javascript" src="/js/bootstrap_002.js"></script>
+      <script type="text/javascript" src="/js/bootstrap_002.js"></script>
       <script src="/js/bootstrap.js"></script>
       <script src="/js/jquery-1.js"></script>
       <link rel="stylesheet" href="/css/w3.css">
@@ -96,7 +94,7 @@
       </section>
       <section>
          <center>
-            <div class="gridvkr-container gridvkr-container--fill">
+            <div class="gridvkr-container gridvkr-container--fit">
                <div class="supported-site">
                   <a href="##">
                      <div class="icon-container" style="background: #FAEDED;"><img alt="Tiktok downloader" src="/media/images/tiktok.jpg" style="height: auto; width: 98%;" /></div>
@@ -249,7 +247,7 @@
                </div>
                <div class="supported-site">
                   <a href="##">
-                     <div class="icon-container" style="background: #F0F5FB;"><img alt="Rutube downloader" src="/media/images/MX-TakaTak_9.jpg&w=620&h=350&zc=1&q=100" style="height: auto; width: 98%;" /></div>
+                     <div class="icon-container" style="background: #F0F5FB;"><img alt="Rutube downloader" src="/media/images/MX-TakaTak_9.jpg" style="height: auto; width: 98%;" /></div>
                      <small class="text-muted">MX Takatak</small>
                   </a>
                </div>
@@ -287,4 +285,3 @@
       </footer>
    </body>
 </html>
-
