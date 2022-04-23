@@ -1,7 +1,6 @@
-
-
 <html>
    <head>
+
      <meta name="title" content="AllDLbyVKr -  Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta name="description" content="AllDLbyVKr -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - Get2Mate">
       <meta name="keywords" content="AllDLbyVKr - online video downloader website,online video downloader app 2022,online video downloader chrome,online video downloader android,online video downloader for pc,online video downloader free,online video downloader for iphone,online video downloader and trimmer,online youtube video downloader app,best online video download app,online video download browser,online video converter downloader free,youtube video downloader cutter online,how to create online video downloader website,online video downloader download youtube dailymotion... videos with 1-click,online video downloader editor,online video downloader embed code,online video downloader for pc windows 10,online video downloader for sony liv,best online video downloader for android,online youtube video downloader for pc windows 10,online video downloader github,online video downloader iphone free,online video downloader idm,online video editor no download,online video downloader reviews,online video download software,online video download site,online video song download,online class video download sinhala,youtube online download video save to gallery,best online video downloader from any site android,best online video downloader from any site,how to online video download,online video downloader with trim,online youtube video downloader website,online video download karne wala app,online youtube video downloader for pc windows 7,online video download youtube,zee5 video downloader online">
@@ -31,7 +30,7 @@
       <meta name="msapplication-TileImage" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
       <meta name="theme-color" content="#ffffff">
       <meta name="viewport" content="width=device-width ,  initial-scale=1 ,  shrink-to-fit=no">
-        <script type="text/javascript" src="/js/bootstrap_002.js"></script>
+           <script type="text/javascript" src="/js/bootstrap_002.js"></script>
       <script src="/js/bootstrap.js"></script>
       <script src="/js/jquery-1.js"></script>
       <link rel="stylesheet" href="/css/w3.css">
@@ -176,7 +175,7 @@
       </section>
       <section>
          <center>
-            <div class="gridvkr-container gridvkr-container--fill">
+            <div class="gridvkr-container gridvkr-container--fit">
                <div class="supported-site">
                   <a href="##">
                      <div class="icon-container" style="background: #FAEDED;"><img alt="Tiktok downloader" src="/media/images/tiktok.jpg" style="height: auto; width: 98%;" /></div>
@@ -329,7 +328,7 @@
                </div>
                <div class="supported-site">
                   <a href="##">
-                     <div class="icon-container" style="background: #F0F5FB;"><img alt="Rutube downloader" src="/media/images/MX-TakaTak_9.jpg&w=620&h=350&zc=1&q=100" style="height: auto; width: 98%;" /></div>
+                     <div class="icon-container" style="background: #F0F5FB;"><img alt="Rutube downloader" src="/media/images/MX-TakaTak_9.jpg" style="height: auto; width: 98%;" /></div>
                      <small class="text-muted">MX Takatak</small>
                   </a>
                </div>
@@ -367,4 +366,3 @@
       </footer>
    </body>
 </html>
-
