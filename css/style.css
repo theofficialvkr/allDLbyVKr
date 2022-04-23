@@ -29,6 +29,7 @@ background-color: #000;
 position: relative;
 z-index: 99999999999999999999999;
 padding: 0 15px;
+  overflow-x: initial;
 }
 
 .navv > .navv-header {
