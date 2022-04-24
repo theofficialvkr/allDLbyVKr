@@ -74,14 +74,38 @@
                <div class="w-100 text-white">
                   <h1 class="h1vkr">Online Video Downloader</h1>
                   <p class="lead mb-0">Download Videos From 1000+ Sites</p>
-                  <form method="get" action="/download.php">
-                     <input placeholder="Video Name Or URL" type="text"  id="vkr" name="vkr">
-                     <button type="submit" role="button" class="buttonvkr" id="submit" >Download/Search</button>
+                  <form method="get" action="##">
+                     <input required placeholder="Video Name Or URL" type="text"  id="vkr" name="vkr">
+                     <button type="submit" role="button" class="buttonvkr" id="btnID" onclick="show()">Download/Search</button>
                   </form>
                </div>
             </div>
          </div>
       </header>
+      <style>
+            #loadingImage{
+            height: 80vh;
+            position: fixed;
+            z-index: 99999999999999999999999;
+            top: 10%;
+            left: 6%;
+            width:90%;
+            }
+      </style>
+      <img src="https://github.com/therealvk/allDLbyVKr/raw/main/loader.gif" id="loadingImage" width="100%">
+          <script>
+                window.onload = codeAddress;
+            function codeAddress(){
+                   document.getElementById('loadingImage')
+                    .style.display = "none";
+               }
+        function show() {
+         var btnV = document.getElementById('btnID');
+               document.getElementById('loadingImage')
+                    .style.display = "block"; 
+                 }
+        
+    </script>
       <!-- Page section example for content below the video header -->
       <section class="my-5">
          <div class="container">
