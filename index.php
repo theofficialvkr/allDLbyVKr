@@ -1,3 +1,14 @@
+<?php
+              $vidUrl = $_SERVER['REQUEST_URI'];
+              $videoVid = explode("vkr=", $vidUrl);
+              $videoVid = $videoVid[1];
+              $vidDe = urldecode($videoVid);
+              $vidEn = urlencode($videoVid);
+              $MyDomain = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=== 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'];
+if(!empty($vidDe)){
+header("Location:  $MyDomain/download.php?vkr=$videoVid");
+}
+?>
 <html>
    <head>
       <title>AllDLByVKr : All Video Downloader By Vijay Kumar</title>
