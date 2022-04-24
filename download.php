@@ -74,7 +74,7 @@
                <div class="w-100 text-white">
                   <h1 class="h1vkr">Online Video Downloader</h1>
                   <p class="lead mb-0">Download Videos From 1000+ Sites</p>
-                  <form method="get" action="##">
+                  <form method="get" action="/download.php">
                      <input required placeholder="Video Name Or URL" type="text"  id="vkr" name="vkr">
                      <button type="submit" role="button" class="buttonvkr" id="btnID" onclick="show()">Download/Search</button>
                   </form>
