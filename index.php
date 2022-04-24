@@ -44,7 +44,7 @@
             <input type="checkbox" id="navv-check">
             <div class="navv-header">
                <div class="navv-title">
-                  <a href="/demo">  AllDLbyVKr </a> 
+                  <a href="/">  AllDLbyVKr </a> 
                </div>
             </div>
             <div class="navv-btn">
