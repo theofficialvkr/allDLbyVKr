@@ -1,0 +1,121 @@
+{ 
+    "background_color": "#ffffff",
+    "start_window": "allDLbyVKr",
+    "enable_top_isolation": true,
+    "orientation":"any",
+    "enable_auto_refresh": true,
+    "name": "allDLbyVKr Video Downloader",
+    "description": "Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok.",
+    "display": "fullscreen",
+    "gcm_sender_id": 1007869709378,
+    "gcm_user_visible_only": true,
+    "short_name": "allDLbyVKr",
+    "start_url": "/?App",
+    "theme_color": "#0096ff",
+    "default_locale":"en",
+    "scope": "/",
+    "android_package_name": "app.allDLbyVKr.android",
+    "prefer_related_applications": true,
+    "lang":"en",
+    "dir":"ltr",
+    "categories": [
+    "social",
+    "news",
+    "magazines"
+  ],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+"screenshots":[
+{
+"src":"/logo.png",
+"sizes":"586x1041",
+"type":"image/png"
+},{
+"src":"/logo.png",
+"sizes":"586x1041",
+"type":"image/png"
+},{
+"src":"/logo.png",
+"sizes":"586x1041",
+"type":"image/png"
+}
+],
+
+  "shortcuts": [
+    {
+      "name": "Download Video",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "url": "/contacts.html",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "url": "/blog.html?utm_source=jumplist&utm_medium=shortcut",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Terms",
+      "url": "/inc/terms.php",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": {
+    "id": "com.dl4hut.android",
+    "platform": "chromeos_play",
+    "url": "/"
+  },
+  "launch_handler": {
+    "route_to": "existing-client",
+    "navigate_existing_client": "never"
+  }
+}
