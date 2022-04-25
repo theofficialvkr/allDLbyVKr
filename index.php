@@ -1,10 +1,12 @@
 <?php
-              $vidUrl = $_SERVER['REQUEST_URI'];
-              $videoVid = explode("vkr=", $vidUrl);
-              $videoVid = $videoVid[1];
-              $vidDe = urldecode($videoVid);
-              $vidEn = urlencode($videoVid);
-              $MyDomain = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=== 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'];
+   $appTitle = $_POST['title'];
+   $appLink = $_POST['text'];
+   $vidUrl = $_SERVER['REQUEST_URI'];
+   $videoVid = explode("vkr=", $vidUrl);
+   $videoVid = $videoVid[1].urldecode($appLink.$appTitle);
+   $vidDe = urldecode($videoVid);
+   $vidEn = urlencode($videoVid);
+   $MyDomain = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=== 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'];
 if(!empty($vidDe)){
 header("Location:  $MyDomain/download.php?vkr=$videoVid");
 }
@@ -48,6 +50,8 @@ header("Location:  $MyDomain/download.php?vkr=$videoVid");
       <link rel="stylesheet" href="/css/style.css">
       <link rel="stylesheet" type="text/css" href="/css/bootstrap_002.css">
       <link href="/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+      <script src="/pwaApp.js" defer></script>
+     <link rel="manifest" crossorigin="use-credentials" href="/manifest.webmanifest">
    </head>
    <body>
       <header>
@@ -55,7 +59,7 @@ header("Location:  $MyDomain/download.php?vkr=$videoVid");
             <input type="checkbox" id="navv-check">
             <div class="navv-header">
                <div class="navv-title">
-                  <a href="/">  AllDLbyVKr </a> 
+                  <a href="/demo">  AllDLbyVKr </a> 
                </div>
             </div>
             <div class="navv-btn">
@@ -101,6 +105,7 @@ header("Location:  $MyDomain/download.php?vkr=$videoVid");
             top: 10%;
             left: 6%;
             width:90%;
+            border-radius:60px;
             }
       </style>
       <img src="https://github.com/therealvk/allDLbyVKr/raw/main/loader.gif" id="loadingImage" width="100%">
