@@ -90,6 +90,7 @@
             top: 10%;
             left: 6%;
             width:90%;
+            border-radius:60px;
             }
       </style>
       <img src="https://github.com/therealvk/allDLbyVKr/raw/main/loader.gif" id="loadingImage" width="100%">
