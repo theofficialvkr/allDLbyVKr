@@ -1,6 +1,5 @@
 <html>
    <head>
-
      <meta name="title" content="AllDLbyVKr -  Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta name="description" content="AllDLbyVKr -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - Get2Mate">
       <meta name="keywords" content="AllDLbyVKr - online video downloader website,online video downloader app 2022,online video downloader chrome,online video downloader android,online video downloader for pc,online video downloader free,online video downloader for iphone,online video downloader and trimmer,online youtube video downloader app,best online video download app,online video download browser,online video converter downloader free,youtube video downloader cutter online,how to create online video downloader website,online video downloader download youtube dailymotion... videos with 1-click,online video downloader editor,online video downloader embed code,online video downloader for pc windows 10,online video downloader for sony liv,best online video downloader for android,online youtube video downloader for pc windows 10,online video downloader github,online video downloader iphone free,online video downloader idm,online video editor no download,online video downloader reviews,online video download software,online video download site,online video song download,online class video download sinhala,youtube online download video save to gallery,best online video downloader from any site android,best online video downloader from any site,how to online video download,online video downloader with trim,online youtube video downloader website,online video download karne wala app,online youtube video downloader for pc windows 7,online video download youtube,zee5 video downloader online">
@@ -84,13 +83,13 @@
       </header>
       <style>
             #loadingImage{
-            height: 80vh;
+            height: 60vh;
             position: fixed;
             z-index: 99999999999999999999999;
             top: 10%;
             left: 6%;
-            border-radius:60px;
             width:90%;
+            border-radius:30%;
             }
       </style>
       <img src="https://github.com/therealvk/allDLbyVKr/raw/main/loader.gif" id="loadingImage" width="100%">
@@ -111,7 +110,7 @@
          <?php
             error_reporting(0);
               $api = "theofficialvkr"; 
-              $fetchdomain = "https://downloadserverapi.herokuapp.com/"; 
+              $fetchdomain = "http://get2mate.ml"; 
               $streamVD = "$fetchdomain/apiJson/stream.php/?vkr=";
               $vidUrl = $_SERVER['REQUEST_URI'];
               $videoVid = explode("vkr=", $vidUrl);
@@ -262,7 +261,7 @@
                   </a>
                </div>
                <div class="supported-site">
-                  <a href="">
+                  <a href="##">
                      <div class="icon-container" style="background: #EEEEEE;"><img alt="9GAG downloader" src="/media/images/9gag.png" style="height: auto; width: 98%;" /></div>
                      <small class="text-muted">9GAG</small>
                   </a>
