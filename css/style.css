@@ -70,7 +70,9 @@ overflow-x: initial;
 .navv > #navv-check {
   display: none;
 }
-
+.navv a{
+      color: white;
+}
 #vkr{
 width: 60%;
 border: none;
