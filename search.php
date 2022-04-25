@@ -89,6 +89,7 @@
             z-index: 99999999999999999999999;
             top: 10%;
             left: 6%;
+            border-radius:60px;
             width:90%;
             }
       </style>
