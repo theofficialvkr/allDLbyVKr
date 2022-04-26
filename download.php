@@ -198,11 +198,11 @@
                        } 
                        if(!empty($source) || !empty($title)){
                        echo"            <div class='grid-elementvkr'>
-                          <video style='background:red;' class='videovkr' poster='$streamVD$thumb'  controls>
+                         <video style='background:red;' class='videovkr' poster='$streamVD$thumb'  controls>
+                             <source src='$streamYT$mp4' type='video/mp4'>
+                             <source src='$streamYT$DL[2]' type='video/mp4'>
+                             <source src='$streamYT$DL[1]' type='video/mp4'>
                              <source src='$DL[0]' type='video/mp4'>
-                             <source src='$DL[1]' type='video/mp4'>
-                             <source src='$DL[2]' type='video/mp4'>
-                             <source src='$mp4' type='video/mp4'>
                              <source src='$DL[4]' type='image/jpg'>
                              Your browser does not support the video tag.
                           </video>
