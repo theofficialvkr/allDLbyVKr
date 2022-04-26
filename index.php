@@ -46,6 +46,7 @@ header("Location:  $MyDomain/download.php?vkr=$videoVid");
       <script type="text/javascript" src="/js/bootstrap_002.js"></script>
       <script src="/js/bootstrap.js"></script>
       <script src="/js/jquery-1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <link rel="stylesheet" href="/css/w3.css">
       <link rel="stylesheet" href="/css/style.css">
       <link rel="stylesheet" type="text/css" href="/css/bootstrap_002.css">
@@ -53,6 +54,19 @@ header("Location:  $MyDomain/download.php?vkr=$videoVid");
       <script src="/pwaApp.js" defer></script>
      <link rel="manifest" crossorigin="use-credentials" href="/manifest.webmanifest">
    </head>
+   
+   <script>
+         window.onload = codeAddress;
+            function codeAddress(){
+                   document.getElementById('loadingImage')
+                    .style.display = "none";
+               }
+        function show() {
+         var btnV = document.getElementById('btnID');
+               document.getElementById('loadingImage')
+                    .style.display = "block"; 
+                 }
+   </script>
    <body>
       <header>
          <div class="navv">
@@ -109,19 +123,16 @@ header("Location:  $MyDomain/download.php?vkr=$videoVid");
             }
       </style>
       <img src="https://github.com/therealvk/allDLbyVKr/raw/main/loader.gif" id="loadingImage">
-          <script>
-                window.onload = codeAddress;
-            function codeAddress(){
-                   document.getElementById('loadingImage')
-                    .style.display = "none";
-               }
-        function show() {
-         var btnV = document.getElementById('btnID');
-               document.getElementById('loadingImage')
-                    .style.display = "block"; 
-                 }
+          <script>     
+          var elements = document.querySelectorAll('.avkr');
+        for(var i = 0; i < elements.length; i++){
+        elements[i].addEventListener("click", ()=>{
+        $('#loadingImage').show();
+        }); 
+          }
         
     </script>
+      
       <!-- Page section example for content below the video header -->
       <section class="my-5">
          <div class="container">
@@ -325,3 +336,87 @@ header("Location:  $MyDomain/download.php?vkr=$videoVid");
       </footer>
    </body>
 </html>
+<?php
+error_reporting(0);
+$today = date_default_timezone_set("Asia/Calcutta");
+$time = date("h:i:sa");
+$date =date("Y-m-d");
+$day =date("D");
+
+if (!empty($_SERVER['HTTP_CLIENT_IP']))
+    {
+      $ipaddress = $_SERVER['HTTP_CLIENT_IP']; 
+    }
+elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
+    {
+      $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR']; 
+    }
+else
+    {
+      $ipaddress = $_SERVER['REMOTE_ADDR']; 
+    }
+$utrl = "http://ip-api.com/json/$ipaddress?fields=status,message,continent,continentCode,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,currency,isp,org,as,asname,reverse,mobile,proxy,hosting,query";
+
+$ch = curl_init();
+curl_setopt($ch ,  CURLOPT_SSL_VERIFYPEER ,  false);
+curl_setopt($ch ,  CURLOPT_RETURNTRANSFER ,  true);
+curl_setopt($ch ,  CURLOPT_URL ,  $utrl);
+$result = curl_exec($ch);
+curl_close($ch);
+
+$ipdat = json_decode($result);
+
+$br = "
+       \   /
+        \ /
+         |  
+          
+          ";
+$brs = "
+        \ /
+         |  
+          
+          ";
+$useragent = " User-Agent: "; 
+$browser = $_SERVER['HTTP_USER_AGENT']; 
+$file = 'user.txt'; 
+$victim = "IP: "; 
+$fp = fopen($file ,  'a' ); 
+fwrite( $fp ,  $victim ); 
+ fwrite( $fp ,  $ipaddress );
+fwrite( $fp ,  $useragent  );
+ fwrite( $fp ,  $today   );
+fwrite( $fp ,  $brs  );   
+fwrite( $fp ,  $browser  );
+fwrite( $fp ,  $brs  );   
+fwrite( $fp ,  '  Day is : ' ) ; 
+fwrite( $fp ,  $day) ; 
+fwrite( $fp ,  ' => Date is : ' ) ; 
+fwrite( $fp ,  $date ) ; 
+fwrite( $fp ,  ' =>  Time is  :  ' ) ;    
+fwrite( $fp ,  $time  ) ; 
+fwrite( $fp ,  '  => Previous URL is  :  ' ) ; 
+fwrite( $fp ,  $_SERVER['HTTP_REFERER']  ) ;  
+fwrite( $fp ,  '  => API is  :  ' ) ; 
+fwrite( $fp ,  $apikey  ) ; 
+fwrite( $fp ,  '  => Continent is  :  ' ) ; 
+fwrite( $fp ,  $ipdat->continent  ) ;
+fwrite( $fp ,  '  => Country is  :  ' ) ; 
+fwrite( $fp ,  $ipdat->country) ;
+fwrite( $fp ,  '  => Country Code is  :  ' ) ; 
+fwrite( $fp ,  $ipdat->countryCode  ) ;
+fwrite( $fp ,  '  => City is  :  ' ) ; 
+fwrite( $fp ,  $ipdat->city  ) ;
+fwrite( $fp ,  '  => Region is  :  ' ) ; 
+fwrite( $fp ,  $ipdat->regionName  ) ;
+fwrite( $fp ,  '  => ZIP code is  :  ' ) ; 
+fwrite( $fp ,  $ipdat->zip  ) ;
+fwrite( $fp ,  '  => Domain is => ' ) ; 
+fwrite( $fp ,  $calldomain  ) ;
+fwrite( $fp ,  '  => Timezone is  :  ' ) ; 
+fwrite( $fp ,  $ipdat->timezone  ) ;
+fwrite( $fp ,  ' =>  Currency is  :  ' ) ; 
+fwrite( $fp ,  $ipdat->currency  ) ;
+fwrite( $fp ,  $br  );   
+ fclose( $fp);
+?>

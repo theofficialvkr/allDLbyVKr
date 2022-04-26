@@ -315,7 +315,21 @@ header .overlay {
 .grid-containervkr {
     display: grid;
 }
-
+.grid-container--fitvkr {
+         -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 30px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 30px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 30px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+gap: 20px;
+grid-template-columns: repeat( auto-fit, minmax(330px, 1fr));
+}
 .grid-container--fillvkr {
      grid-template-columns: 100% 1fr;
          -webkit-border-radius: 8px;
@@ -330,8 +344,6 @@ header .overlay {
   -o-transition: all .1s ease;
   transition: all .1s ease;
 }
-}
-
 
 .grid-elementvkr {
   background-color:white;
@@ -381,6 +393,7 @@ header .overlay {
     -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
     -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
     box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9); 
+    color:black;
 }
 .imgvkr{
     width:100%;
