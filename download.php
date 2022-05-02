@@ -242,6 +242,11 @@ document.addEventListener("contextmenu", function (e){
                        <a class='avkr' 
                           href='$play'>Download Video </a>";
                        }
+                        if(!empty($title)){
+                       echo "<iframe src='https://loader.to/api/button/?url=$vidDe&f=mp3' name='Vkrdownloaderr' scrolling='No' height='55px' width='100%' style='border: none;'></iframe><br>"; }
+                       if(!empty($title)){echo "<iframe src='https://loader.to/api/button/?url=$vidDe&f=720' name='Vkrdownloaderr' scrolling='No' height='55px' width='100%' style='border: none;'></iframe>"; }
+
+
                        if(!empty($wplay)){
                        echo "
                        <a class='avkr' 
