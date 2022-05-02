@@ -1,27 +1,27 @@
 <html>
    <head>
-     <meta name="title" content="AllDLbyVKr -  Online Download Video, Audio, GIF Photo from YouTube & More">
-      <meta name="description" content="AllDLbyVKr -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - Get2Mate">
-      <meta name="keywords" content="AllDLbyVKr - online video downloader website,online video downloader app 2022,online video downloader chrome,online video downloader android,online video downloader for pc,online video downloader free,online video downloader for iphone,online video downloader and trimmer,online youtube video downloader app,best online video download app,online video download browser,online video converter downloader free,youtube video downloader cutter online,how to create online video downloader website,online video downloader download youtube dailymotion... videos with 1-click,online video downloader editor,online video downloader embed code,online video downloader for pc windows 10,online video downloader for sony liv,best online video downloader for android,online youtube video downloader for pc windows 10,online video downloader github,online video downloader iphone free,online video downloader idm,online video editor no download,online video downloader reviews,online video download software,online video download site,online video song download,online class video download sinhala,youtube online download video save to gallery,best online video downloader from any site android,best online video downloader from any site,how to online video download,online video downloader with trim,online youtube video downloader website,online video download karne wala app,online youtube video downloader for pc windows 7,online video download youtube,zee5 video downloader online">
+     <meta name="title" content="Vijay Kumar -  Online Download Video, Audio, GIF Photo from YouTube & More">
+      <meta name="description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
+      <meta name="keywords" content="Vijay Kumar - online video downloader website,online video downloader app 2022,online video downloader chrome,online video downloader android,online video downloader for pc,online video downloader free,online video downloader for iphone,online video downloader and trimmer,online youtube video downloader app,best online video download app,online video download browser,online video converter downloader free,youtube video downloader cutter online,how to create online video downloader website,online video downloader download youtube dailymotion... videos with 1-click,online video downloader editor,online video downloader embed code,online video downloader for pc windows 10,online video downloader for sony liv,best online video downloader for android,online youtube video downloader for pc windows 10,online video downloader github,online video downloader iphone free,online video downloader idm,online video editor no download,online video downloader reviews,online video download software,online video download site,online video song download,online class video download sinhala,youtube online download video save to gallery,best online video downloader from any site android,best online video downloader from any site,how to online video download,online video downloader with trim,online youtube video downloader website,online video download karne wala app,online youtube video downloader for pc windows 7,online video download youtube,zee5 video downloader online">
       <meta name="robots" content="index,follow">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta name="language" content="en">
       <meta name="revisit-after" content="2 days">
       <meta name="author" content="TheOfficialVKr">
-      <meta itemprop="name" content="Get2Mate -AllDLbyVKr - Online Download Video, Audio, GIF Photo from YouTube & More">
-      <meta itemprop="description" content="AllDLbyVKr -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - Get2Mate">
+      <meta itemprop="name" content="theofficialvkr -Vijay Kumar - Online Download Video, Audio, GIF Photo from YouTube & More">
+      <meta itemprop="description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
       <meta itemprop="image" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
       <meta name="twitter:card" content="summary">
-      <meta name="twitter:title" content="Get2Mate -AllDLbyVKr - Online Download Video, Audio, GIF Photo from YouTube & More">
-      <meta name="twitter:description" content="AllDLbyVKr -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - Get2Mate">
+      <meta name="twitter:title" content="theofficialvkr -Vijay Kumar - Online Download Video, Audio, GIF Photo from YouTube & More">
+      <meta name="twitter:description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
       <meta name="twitter:site" content="theofficialvkr">
       <meta name="twitter:creator" content="itsmethevkr">
       <meta name="twitter:image:src" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
-      <meta property="og:title" content="AllDLbyVKr -  Online Download Video, Audio, GIF Photo from YouTube & More">
-      <meta property="og:description" content="AllDLbyVKr -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - Get2Mate">
+      <meta property="og:title" content="Vijay Kumar -  Online Download Video, Audio, GIF Photo from YouTube & More">
+      <meta property="og:description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
       <meta property="og:image" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
       <meta property="og:url" content="/">
-      <meta property="og:site_name" content="AllDLbyVKr -  Online Download Video, Audio, GIF Photo from YouTube & More">
+      <meta property="og:site_name" content="Vijay Kumar -  Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta property="fb:app_id" content="427710135379286">
       <meta property="og:locale" content="en_US">
       <meta property="og:type" content="website">
@@ -51,13 +51,41 @@
                     .style.display = "block"; 
                  }
    </script>
-   <body>
+   <body oncontextmenu="return false">
+<script>
+
+document.addEventListener("contextmenu", function (e){
+    e.preventDefault();
+}, false);
+ document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+</script>
+       <div id="loadingImage">
+        <div class="loadding">
+       <img style="width:100%;z-index: 999999999;" src="https://c.tenor.com/28DFFVtvNqYAAAAC/loading.gif"> 
+        </div>
+        </div>
       <header>
          <div class="navv">
             <input type="checkbox" id="navv-check">
             <div class="navv-header">
                <div class="navv-title">
-                  <a href="/">  AllDLbyVKr </a> 
+                  <a href="/">  <span class="webTitle"></span></a> 
                </div>
             </div>
             <div class="navv-btn">
@@ -69,9 +97,9 @@
             </div>
             <div class="navv-links">
                <a href="//instagram.com/theofficialvkr" target="_blank">Follow</a>
-               <a href="https://tinyurl.com/g2mapkdl" target="_blank">Download App</a>
-               <a href="http://get2mate.ga/contacts.html" target="_blank">Contact us</a>
-               <a href="#" target="_blank">Code</a>
+               <a href="https://videodlall.blogspot.com/p/alldlbyvkr.html" target="_blank">Download App</a>
+               <a href="/contact.php" target="_blank">Contact us</a>
+               <a href="https://github.com/therealvk/allDLbyVKr" target="_blank">Code</a>
                <a href="mailto:contactvkr@yahoo.com" target="_blank">Mail us</a>
             </div>
          </div>
@@ -85,8 +113,7 @@
          <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center midvkr">
                <div class="w-100 text-white">
-                  <h1 class="h1vkr">Online Video Downloader</h1>
-                  <p class="lead mb-0">Download Videos From 1000+ Sites</p>
+                  <h1 class="h1vkr"><span class="input"></span></h1>
                   <form method="get" action="/download.php">
                      <input required placeholder="Video Name Or URL" type="text"  id="vkr" name="vkr">
                      <button type="submit" role="button" class="buttonvkr" id="btnID" onclick="show()">Download/Search</button>
@@ -99,7 +126,7 @@
          <?php
             error_reporting(0);
               $api = "theofficialvkr"; 
-              $fetchdomain = "https://downloadserverapi.herokuapp.com"; 
+              $fetchdomain = "https://theofficialvkr.000webhostapp.com"; 
               $streamVD = "$fetchdomain/apiJson/stream.php/?vkr=";
               $vidUrl = $_SERVER['REQUEST_URI'];
               $videoVid = explode("vkr=", $vidUrl);
@@ -142,10 +169,10 @@
                        }  else $thumb = "https://github.com/therealvk/allDLbyVKr/raw/main/logo.png";  
                        if(!empty($error)){
                            echo "
-      <title>AllDLByVKr : All Video Downloader By Vijay Kumar</title>  $error ";
+      <title>Vijay Kumar : All Video Downloader By Vijay Kumar</title>  $error ";
                          }
                          if(!empty($search)){
-                       echo "<title>allDLbyVKr : Search - $search - Videos Online</title>
+                       echo "<title class='pTitle'>Vijay Kumar : Search - $search - Videos Online</title>
                        <div class='grid-containervkr grid-container--fitvkr'>";
                        foreach(range('a','m') as $alpha){
                        $sId[$alpha] = $jsonData->data->$alpha->id;
@@ -165,34 +192,22 @@
                        echo "$error";
                        }elseif(!empty($error)){
                        echo "
-      <title>AllDLByVKr : All Video Downloader By Vijay Kumar</title>  
+      <title>Vijay Kumar : All Video Downloader By Vijay Kumar</title>  
                        <div class='centervkr'>$error</div>
                        ";
                        echo "";
                  }else echo '
-      <title>AllDLByVKr : All Video Downloader By Vijay Kumar</title>  <h3 class="centervkr">'.$error.'</h3>';
+      <title>Vijay Kumar : All Video Downloader By Vijay Kumar</title>  <h3 class="centervkr">'.$error.'</h3>';
                 }
                        else echo '
-      <title>AllDLByVKr : All Video Downloader By Vijay Kumar</title>  <h3 class="centervkr">Error</h3>';   
+      <title>Vijay Kumar : All Video Downloader By Vijay Kumar</title>  <h3 class="centervkr">Error</h3>';   
                        }
                  if(empty($vidDe)){
                  $thumb = "https://github.com/therealvk/allDLbyVKr/raw/main/logo.png";
                  }
                  ?>
       </section>
-      
-    <style>
-            #loadingImage{
-            height: 60vh;
-            position: fixed;
-            z-index: 99999999999999999999999;
-            top: 10%;
-            left: 6%;
-            width:90%;
-            border-radius:30%;
-            }
-     </style>
-     <img src="https://github.com/therealvk/allDLbyVKr/raw/main/loader.gif" id="loadingImage" width="100%">
+
     <script>     
           var elements = document.querySelectorAll('.avkr');
         for(var i = 0; i < elements.length; i++){
@@ -208,7 +223,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-8 mx-auto">
-                  <h1 class="h1vkr centerHvkr">Supported Websites</h1>
+                  <h1 class="h1vkr centerHvkr"><span class="ssite"></span></h1>
                </div>
             </div>
          </div>
@@ -402,9 +417,42 @@
          </center>
       </section>
       <footer>
-         <h3>Copyright &copy; <?php echo  date("Y"); ?> <b>|</b> Designed by <a href="https://instagram.com/theofficialvkr">Vijay Kumar</a></h3>
+         <h3>Copyright &copy; <?php echo  date("Y"); ?> <b>|</b> Designed by <a href="https://instagram.com/theofficialvkr"><span class="cW"></span></a></h3>
       </footer>
    </body>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed(".input", {
+    strings:["Welcome", "here you can", "Download Video From Any Site", "Watch Live Cricket", "Watch IPL", "Watch One Day World CUP", "Watch T20 World Cup", "And Many More"],
+    typeSpeed: 60,
+    backSpeed: 50,
+    loop:true
+  });
+    var typedT = new Typed(".webTitle", {
+    strings:["Vijay Kumar", "Videos Downloader", "Watch Sports", "And More"],
+    typeSpeed: 30,
+    backSpeed: 40,
+    loop:true
+  });
+      var typedP = new Typed(".pTitle", {
+    strings:["Welcome to Website of Vijay Kumar","here you can", "Download Video From Any Site", "And", "Watch Sports", "And More"],
+    typeSpeed: 30,
+    backSpeed: 40,
+    loop:false
+  });
+    var typedS = new Typed(".ssite", {
+    strings:["Supported Websites"],
+    typeSpeed: 30,
+    backSpeed: 40,
+    loop:false
+  });
+    var typedCw = new Typed(".cW", {
+    strings:["Vijay Kumar"],
+    typeSpeed: 30,
+    backSpeed: 40,
+    loop:false
+  });
+</script>
 </html>
 <?php
 error_reporting(0);

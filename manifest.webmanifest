@@ -1,15 +1,15 @@
 { 
     "background_color": "#ffffff",
-    "start_window": "allDLbyVKr",
+    "start_window": "Vijay Kumar",
     "enable_top_isolation": true,
     "orientation":"any",
     "enable_auto_refresh": true,
-    "name": "allDLbyVKr Video Downloader",
+    "name": "Vijay Kumar APP",
     "description": "Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok.",
     "display": "fullscreen",
     "gcm_sender_id": 1007869709378,
     "gcm_user_visible_only": true,
-    "short_name": "allDLbyVKr",
+    "short_name": "Vijay Kumar",
     "start_url": "/?App",
     "theme_color": "#0096ff",
     "default_locale":"en",
@@ -25,39 +25,39 @@
   ],
   "icons": [
     {
-      "src": "/logo.png",
+      "src": "/media/logo.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "/logo.png",
+      "src": "/media/logo.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
       "purpose": "maskable",
-      "src": "/logo.png",
+      "src": "/media/logo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
       "purpose": "maskable",
-      "src": "/logo.png",
+      "src": "/media/logo.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
 "screenshots":[
 {
-"src":"/logo.png",
+"src":"/media/logo.png",
 "sizes":"586x1041",
 "type":"image/png"
 },{
-"src":"/logo.png",
+"src":"/media/logo.png",
 "sizes":"586x1041",
 "type":"image/png"
 },{
-"src":"/logo.png",
+"src":"/media/logo.png",
 "sizes":"586x1041",
 "type":"image/png"
 }
@@ -69,7 +69,7 @@
       "url": "/",
       "icons": [
         {
-          "src": "/logo.png",
+          "src": "/media/logo.png",
           "type": "image/png",
           "sizes": "192x192"
         }
@@ -77,10 +77,10 @@
     },
     {
       "name": "Contact",
-      "url": "/contacts.html",
+      "url": "/media/contacts.html",
       "icons": [
         {
-          "src": "/logo.png",
+          "src": "/media/logo.png",
           "type": "image/png",
           "sizes": "192x192"
         }
@@ -91,7 +91,7 @@
       "url": "/blog.html?utm_source=jumplist&utm_medium=shortcut",
       "icons": [
         {
-          "src": "/logo.png",
+          "src": "/media/logo.png",
           "type": "image/png",
           "sizes": "192x192"
         }
@@ -102,7 +102,7 @@
       "url": "/inc/terms.php",
       "icons": [
         {
-          "src": "/logo.png",
+          "src": "/media/logo.png",
           "type": "image/png",
           "sizes": "192x192"
         }
