@@ -56,11 +56,7 @@ header("Location:  $MyDomain/download.php?vkr=$videoVid");
      
    </head>
    <script>
-             //<![CDATA[
-        window.onbeforeunload = function(){
-            return 'Are you sure you want to leave?';
-        };
-    //]]>
+             
          window.onload = codeAddress;
             function codeAddress(){
                    document.getElementById('loadingImage')
