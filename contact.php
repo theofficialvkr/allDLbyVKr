@@ -11,23 +11,23 @@
       <meta name="author" content="TheOfficialVKr">
       <meta itemprop="name" content="theofficialvkr -Vijay Kumar - Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta itemprop="description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
-      <meta itemprop="image" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
+      <meta itemprop="image" content="https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png">
       <meta name="twitter:card" content="summary">
       <meta name="twitter:title" content="theofficialvkr -Vijay Kumar - Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta name="twitter:description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
       <meta name="twitter:site" content="theofficialvkr">
       <meta name="twitter:creator" content="itsmethevkr">
-      <meta name="twitter:image:src" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
+      <meta name="twitter:image:src" content="https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png">
       <meta property="og:title" content="Vijay Kumar -  Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta property="og:description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
-      <meta property="og:image" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
+      <meta property="og:image" content="https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png">
       <meta property="og:url" content="/">
       <meta property="og:site_name" content="Vijay Kumar -  Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta property="fb:app_id" content="427710135379286">
       <meta property="og:locale" content="en_US">
       <meta property="og:type" content="website">
       <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
+      <meta name="msapplication-TileImage" content="https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png">
       <meta name="theme-color" content="#ffffff">
       <meta name="viewport" content="width=device-width ,  initial-scale=1 ,  shrink-to-fit=no">
       <script type="text/javascript" src="/js/bootstrap_002.js"></script>
@@ -80,7 +80,7 @@
                <a href="//instagram.com/theofficialvkr" target="_blank">Follow</a>
                <a href="https://videodlall.blogspot.com/p/alldlbyvkr.html" target="_blank">Download App</a>
                <a href="http://theofficialvkr.ml/contact.php" target="_blank">Contact us</a>
-               <a href="https://github.com/therealvk/allDLbyVKr" target="_blank">Code</a>
+               <a href="https://github.com/theofficialvkr/allDLbyVKr" target="_blank">Code</a>
                <a href="mailto:contactvkr@yahoo.com" target="_blank">Mail us</a>
             </div>
          </div>

@@ -10,23 +10,23 @@
       <meta name="author" content="TheOfficialVKr">
       <meta itemprop="name" content="theofficialvkr -Vijay Kumar - Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta itemprop="description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
-      <meta itemprop="image" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
+      <meta itemprop="image" content="https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png">
       <meta name="twitter:card" content="summary">
       <meta name="twitter:title" content="theofficialvkr -Vijay Kumar - Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta name="twitter:description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
       <meta name="twitter:site" content="theofficialvkr">
       <meta name="twitter:creator" content="itsmethevkr">
-      <meta name="twitter:image:src" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
+      <meta name="twitter:image:src" content="https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png">
       <meta property="og:title" content="Vijay Kumar -  Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta property="og:description" content="Vijay Kumar -  Online download videos from YouTube, All in One DL, Download videos from twitter, instagram, facebook, mxtakatak, josh, ipl, ted, tiktok - theofficialvkr">
-      <meta property="og:image" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
+      <meta property="og:image" content="https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png">
       <meta property="og:url" content="/">
       <meta property="og:site_name" content="Vijay Kumar -  Online Download Video, Audio, GIF Photo from YouTube & More">
       <meta property="fb:app_id" content="427710135379286">
       <meta property="og:locale" content="en_US">
       <meta property="og:type" content="website">
       <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="https://github.com/therealvk/allDLbyVKr/raw/main/logo.png">
+      <meta name="msapplication-TileImage" content="https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png">
       <meta name="theme-color" content="#ffffff">
       <meta name="viewport" content="width=device-width ,  initial-scale=1 ,  shrink-to-fit=no">
            <script type="text/javascript" src="/js/bootstrap_002.js"></script>
@@ -39,8 +39,11 @@
       <link href="/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
    </head>
    
-   <script>
+     
+<script>
+ 
          window.onload = codeAddress;
+           setTimeout(codeAddress, 3000);
             function codeAddress(){
                    document.getElementById('loadingImage')
                     .style.display = "none";
@@ -51,8 +54,10 @@
                     .style.display = "block"; 
                  }
    </script>
+ 
    <body oncontextmenu="return false">
 <script>
+
 document.addEventListener("contextmenu", function (e){
     e.preventDefault();
 }, false);
@@ -73,10 +78,20 @@ document.addEventListener("contextmenu", function (e){
      return false;
   }
 }
-</script>
+</script>  <body>
        <div id="loadingImage">
         <div class="loadding">
-       <img style="width:100%;z-index: 999999999;" src="https://c.tenor.com/28DFFVtvNqYAAAAC/loading.gif"> 
+       <div class="loadingVK">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
         </div>
         </div>
       <header>
@@ -98,7 +113,7 @@ document.addEventListener("contextmenu", function (e){
                <a href="//instagram.com/theofficialvkr" target="_blank">Follow</a>
                <a href="https://videodlall.blogspot.com/p/alldlbyvkr.html" target="_blank">Download App</a>
                <a href="/contact.php" target="_blank">Contact us</a>
-               <a href="https://github.com/therealvk/allDLbyVKr" target="_blank">Code</a>
+               <a href="https://github.com/theofficialvkr/allDLbyVKr" target="_blank">Code</a>
                <a href="mailto:contactvkr@yahoo.com" target="_blank">Mail us</a>
             </div>
          </div>
@@ -182,7 +197,7 @@ document.addEventListener("contextmenu", function (e){
                        $thumb = urldecode($ttthumb);
                        } elseif(!empty ($tthumb)){
                        $thumb = urldecode($tthumb);
-                       }  else $thumb = "https://github.com/therealvk/allDLbyVKr/raw/main/logo.png";
+                       }  else $thumb = "https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png";
                        echo "<title  class='pTitle'>Vijay Kumar : Download - $title - Videos Online</title>
                        <div class='grid-containervkr grid-container--fillvkr'>";
                        for ($i = 0; $i < 32; $i++) {
@@ -262,7 +277,7 @@ document.addEventListener("contextmenu", function (e){
                        echo '</div></div>';
                        }else echo "<h2 class='centervkr'>Please Enter URL </h3>";
                  if(empty($vidDe)){
-                 $thumb = "https://github.com/therealvk/allDLbyVKr/raw/main/logo.png";
+                 $thumb = "https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png";
                  }
                  ?>
 
