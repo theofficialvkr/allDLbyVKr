@@ -217,6 +217,7 @@ document.addEventListener("contextmenu", function (e){
                        if(!empty($source) || !empty($title)){
                        echo"            <div class='grid-elementvkr'>
                           <video style='background:red;' class='videovkr' poster='$streamVD$thumb'  controls>
+                             <source src='https://dlvkrapi.herokuapp.com/api/play?url=$vidDe' type='video/mp4'>
                              <source src='$DL[0]' type='video/mp4'>
                              <source src='$DL[1]' type='video/mp4'>
                              <source src='$DL[2]' type='video/mp4'>
