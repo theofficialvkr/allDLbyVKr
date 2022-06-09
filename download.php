@@ -137,6 +137,7 @@ document.addEventListener("contextmenu", function (e){
          </div>
       </header>
      <section id="searchvkr">
+            script>
              <?php 
             error_reporting(0);
               $api = "theofficialvkr"; 
@@ -153,6 +154,7 @@ document.addEventListener("contextmenu", function (e){
             echo "<script>location.replace('/search.php/?vkr=$videoVid');</script>";
                exit;
                }else{ echo "";}
+               
               if(!empty($matches[1])){
               $streamYT = "$fetchdomain/apiJson/stream.php/?vkr=";
               }else{ $streamYT = ""; }
@@ -168,12 +170,12 @@ document.addEventListener("contextmenu", function (e){
               curl_setopt($curl, CURLOPT_HTTPHEADER, 
              
               array("APIKEY:$apikey","DOMAIN:$yourURL","Content-Type: application/json"));
-              $resp = json_decode(curl_exec($curl));
+             $resp = json_decode(curl_exec($curl));
               curl_close($curl);
                 return $resp;
               }
               if(!empty($vidDe)){
-                   json_encode($jsonData = callAPI($fetch,$api,$MyDomain));
+                 json_encode($jsonData = callAPI($fetch,$api,$MyDomain));
                        //collecting basic data 
                        $title = $jsonData->data->title;
                        $description = $jsonData->data->description;
@@ -197,9 +199,13 @@ document.addEventListener("contextmenu", function (e){
                        $thumb = urldecode($ttthumb);
                        } elseif(!empty ($tthumb)){
                        $thumb = urldecode($tthumb);
-                       }  else $thumb = "https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png";
+                       }  else $thumb = "https://github.com/therealvk/allDLbyVKr/raw/main/logo.png";
                        echo "<title  class='pTitle'>Vijay Kumar : Download - $title - Videos Online</title>
-                       <div class='grid-containervkr grid-container--fillvkr'>";
+                       <div class='grid-containervkr grid-container--fillvkr'>
+                       ";
+                                             if(empty($title)){
+                             echo "<iframe class='framez' id='framez' src='https://theofficialvkr.000webhostapp.com/apiJson/dliframe.php?vkr=$vidDe' width='100%' height='500px' allowtransparency='true' style='border:none'></iframe>"; }
+                      
                        for ($i = 0; $i < 32; $i++) {
                        $DL[$i] = $jsonData->{"dl$i"}->url;
                        $FRMT[$i] = $jsonData->{"dl$i"}->format;
@@ -218,14 +224,14 @@ document.addEventListener("contextmenu", function (e){
                        echo"            <div class='grid-elementvkr'>
                           <video style='background:red;' class='videovkr' poster='$streamVD$thumb'  controls>
                              <source src='https://dlvkrapi.herokuapp.com/api/play?url=$vidDe' type='video/mp4'>
-                             <source src='$DL[0]' type='video/mp4'>
-                             <source src='$DL[1]' type='video/mp4'>
                              <source src='$DL[2]' type='video/mp4'>
+                             <source src='$DL[1]' type='video/mp4'>
+                             <source src='$DL[0]' type='video/mp4'>
                              <source src='$mp4' type='video/mp4'>
                              <source src='$DL[4]' type='image/jpg'>
                              Your browser does not support the video tag.
                           </video>
-                               <h3 class='centervkr'> $title </h3>  
+                               <h3 class='centervkr'> ".urldecode($title)."</h3>  
                           ";
                        }else echo "";
                        //Default Download Link
@@ -234,10 +240,7 @@ document.addEventListener("contextmenu", function (e){
                        <a class='avkr' 
                           href='$hd'>Download HD </a>";
                        }
-                        if(!empty($matches[1])){
-                       echo "<iframe src='$fetchdomain/apiJson/button.php/?vkr=$vidDe&q=mp3' name='Vkrdownloaderr' scrolling='No' height='55px' width='100%' style='border: none;'></iframe><br>"; }
-                       if(!empty($matches[1])){echo "<iframe src='$fetchdomain/apiJson/button.php/?vkr=$vidDe&q=720' name='Vkrdownloaderr' scrolling='No' height='55px' width='100%' style='border: none;'></iframe>"; }
-
+                       
                        if(!empty($sd)){
                        echo "
                        <a class='avkr' 
@@ -253,16 +256,16 @@ document.addEventListener("contextmenu", function (e){
                        <a class='avkr' 
                           href='$mp3'>Download MP3 </a>";
                        }
+                    
+                      if(!empty($title)){
+                             echo "<iframe class='framez' id='framez' src='https://theofficialvkr.000webhostapp.com/apiJson/dliframe.php?vkr=$vidDe' width='100%' height='500px' allowtransparency='true' style='border:none'></iframe>"; }
+                      
+
                        if(!empty($play)){
                        echo "
                        <a class='avkr' 
                           href='$play'>Download Video </a>";
                        }
-                        if(!empty($title)){
-                       echo "<iframe src='https://loader.to/api/button/?url=$vidDe&f=mp3' name='Vkrdownloaderr' scrolling='No' height='55px' width='100%' style='border: none;'></iframe><br>"; }
-                       if(!empty($title)){echo "<iframe src='https://loader.to/api/button/?url=$vidDe&f=720' name='Vkrdownloaderr' scrolling='No' height='55px' width='100%' style='border: none;'></iframe>"; }
-
-
                        if(!empty($wplay)){
                        echo "
                        <a class='avkr' 
@@ -278,7 +281,7 @@ document.addEventListener("contextmenu", function (e){
                        echo '</div></div>';
                        }else echo "<h2 class='centervkr'>Please Enter URL </h3>";
                  if(empty($vidDe)){
-                 $thumb = "https://github.com/theofficialvkr/allDLbyVKr/raw/main/logo.png";
+                 $thumb = "https://github.com/therealvk/allDLbyVKr/raw/main/logo.png";
                  }
                  ?>
 
